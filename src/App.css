@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.navbar-container {
+  background-color: #2c0e3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.navbar-scoreTimer-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav-timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+.nav-logo {
+  height: 30px;
+  width: 100px;
+  margin-left: 20px;
+}
+.match-score {
+  color: #ffffff;
+}
+.nav-timer-image {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.match-timer {
+  color: #ffffff;
+}
+.navbar-scoreTimer-container {
+  margin-right: 20px;
+}
+.match-main-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.match-container {
+  margin-top: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.score {
+  color: #fec653;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.timer {
+  color: #fec653;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.match-random-image {
+  height: 300px;
+  width: 450px;
+}
+.tab-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.match-image-container {
+  margin-top: 30px;
+}
+.match-image-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
